@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.335cc40a.css",
+    "main.js": "/static/js/main.1e9b2788.js",
+    "static/js/453.522612ee.chunk.js": "/static/js/453.522612ee.chunk.js",
+    "static/media/sketches.jpg": "/static/media/sketches.871d030098489a9dcc70.jpg",
+    "static/media/animation.gif": "/static/media/animation.020bae9246c286816b8f.gif",
+    "static/media/egt.gif": "/static/media/egt.1c1e69e3f239f3ac3b14.gif",
+    "static/media/bg.png": "/static/media/bg.7690992e59154299bade.png",
+    "static/media/glasgow.jpg": "/static/media/glasgow.e4575596b26381c0f7c1.jpg",
+    "static/media/crochet.jpg": "/static/media/crochet.5906ce6b188428eade65.jpg",
+    "static/media/whatisbme.jpg": "/static/media/whatisbme.fa0a1ba38ecb59296ccc.jpg",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/3dprintedcanoe.jpg": "/static/media/3dprintedcanoe.61a20636ac20f22e7f69.jpg",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/catears.jpg": "/static/media/catears.b5985192bc34e8f64461.jpg",
+    "static/media/ahah.jpg": "/static/media/ahah.8ea83a07d7d95d803d1b.jpg",
+    "index.html": "/index.html",
+    "main.335cc40a.css.map": "/static/css/main.335cc40a.css.map",
+    "main.1e9b2788.js.map": "/static/js/main.1e9b2788.js.map",
+    "453.522612ee.chunk.js.map": "/static/js/453.522612ee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.335cc40a.css",
+    "static/js/main.1e9b2788.js"
+  ]
+}
