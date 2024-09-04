@@ -1,38 +1,148 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300..700&display=swap');
+body{
+  font-family: "Quicksand", sans-serif !important;
+  font-size: 1rem !important;
+  background-color: #84e8b6 !important;
+}
+
+main{
+  margin: 0 4rem;
+  background-color: white;
+  border-radius: 0 0 1rem 1rem;
+  padding-bottom: 1rem;
+}
+
+section{
+  margin-bottom: 2rem;
+}
+
+.container{
+  padding: 0 !important;
+}
+
+.row{
+  padding: 1rem 2rem !important;
+}
+
+h1{
+  font-size: 1.15rem !important;
+}
+
+h1 span{
+  margin-left: 0.5rem;
+  font-family: "Pacifico", cursive;
+  font-size: 1.25rem;
+  color: black;
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 0.1rem 0.8rem; 
+  transition: 0.5s;
+}
+h1 a{
+  text-decoration: none !important;
+}
+
+h1 span:hover{
+  background-color: rgb(99, 255, 146);
+  color: #0c5744;
+  transition: 0.5s;
+  padding: 0.1rem 1.2rem;
+}
+
+h2{
+  font-size: 1rem !important;
+}
+
+.section-heading{
+  height: 50vh;
+  background-color: #0c5744;
+  display: flex;
+  width: 100%;
+  padding: 1rem;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.section-heading h3{
+  font-family: "Pacifico", cursive;
+  font-size: 2.5rem;
+  padding: 1rem 2rem;
+  color: white;
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 0.7rem;
+}
+
+h4{
+  font-family: "Pacifico", cursive;
+  font-size: 1.6rem !important;
+}
+
+.navbar{
+  background-color: #1db58f !important;
+}
+
+.card-header{
+  padding: 1rem !important;
+  background-color: #84e8b6 !important;
+  transition: 0.5s;
+}
+
+.card-header h5{
+  font-size: 1.1rem !important;
+  font-weight: bolder;
+  letter-spacing: 0.1rem;
+}
+
+.card-header:hover{
+  cursor: pointer;
+  background-color: #1db58f !important;
+  color: white;
+  transition: 0.5s;
+}
+
+.card-header:hover h5::after{
+  content: ' +';
+}
+
+footer{
+  background-color: #1db58f !important;
+  margin-top: 3rem;
+  padding: 2rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+footer a{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.about-app{
+  background-color: rgb(99, 255, 146);
+  border-radius: 0.5rem;
+  margin: 0;
+}
+.experience-info::after{
+  content: ' +';
+}
+.experience-info:hover{
+  cursor: pointer;
+  color: #0c5744;
+}
+.experience-info:hover::after{
+  content:' ...';
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.photo-gallery{
+  display: flex;
+  gap: 1rem;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+figure > img{
+  max-height: 35vh;
+}
+
+figcaption{
+  text-align: center;
+  font-size: 0.75rem;
 }
