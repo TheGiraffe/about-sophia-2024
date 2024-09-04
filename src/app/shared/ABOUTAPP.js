@@ -3,7 +3,7 @@ export const ABOUTLINKS = [
     {
         id: 0,
         text: "Link to this app's Github repository.",
-        link: ""
+        link: "https://github.com/TheGiraffe/about-sophia-pace2024"
     },
     {
         id: 1,
